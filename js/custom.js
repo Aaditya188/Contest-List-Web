@@ -107,9 +107,10 @@ function display() {
 							<span>Start date: ${date[1]}/${date[0]}/${date[2]}</span>
 							<span>Start time: ${time[1]}</span>
 							<span>Duration: ${dur}</span>
-              <div style="float: left;">
-                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right">Redirect</i> Redirect</button>
-              </div>
+						<br>
+					      <div style="float: left;">
+						<button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right">Redirect</i> Redirect</button>
+					      </div>
 						</div>
 						<div class="right">
 							<img class="logo" src="images/${map1.get(contest.resource)}" alt="codechef">
@@ -162,9 +163,10 @@ function display() {
 							<span>Start date: ${date[1]}/${date[0]}/${date[2]}</span>
 							<span>Start time: ${time[1]}</span>
 							<span>Duration: ${dur}</span>
-              <div style="float: left;">
-                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i> Redirect</button>
-              </div>
+						<br>
+					      <div style="float: left;">
+						<button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i> Redirect</button>
+					      </div>
 						</div>
 						<div class="right">
 							<img class="logo" src="images/${map1.get(contest.resource)}" alt="codechef">
