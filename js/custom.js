@@ -108,8 +108,7 @@ function display() {
 							<span>Start time: ${time[1]}</span>
 							<span>Duration: ${dur}</span>
               <div style="float: left;">
-                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i></button>
-                <button class="btnnewmode" id="eye" onclick=" clipboardcontent('${contest.event}', '${contest.href}');"><i class="bi bi-clipboard"></i></button>
+                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right">Redirect</i> Redirect</button>
               </div>
 						</div>
 						<div class="right">
@@ -164,8 +163,7 @@ function display() {
 							<span>Start time: ${time[1]}</span>
 							<span>Duration: ${dur}</span>
               <div style="float: left;">
-                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i></button>
-                <button class="btnnewmode" id="eye" onclick=" clipboardcontent('${contest.event}', '${contest.href}');"><i class="bi bi-clipboard"></i></button>
+                <button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i> Redirect</button>
               </div>
 						</div>
 						<div class="right">
