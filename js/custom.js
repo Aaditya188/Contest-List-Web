@@ -109,7 +109,7 @@ function display() {
 							<span>Duration: ${dur}</span>
 						<br>
 					      <div style="float: left;">
-						<button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right">Redirect</i> Redirect</button>
+						<button class="btnnewmode" onclick="opennew('${contest.href}');"><i class="bi bi-box-arrow-up-right"></i> Redirect</button>
 					      </div>
 						</div>
 						<div class="right">
